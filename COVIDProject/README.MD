@@ -1,5 +1,5 @@
 # COVID-19 Data Analysis
 
-Wrote queries analyzing vaccination and deaths data and relations between them globally.
+Wrote queries analyzing global vaccination and deaths data and relations between them.
 
-Data taken from https://ourworldindata.org/covid-deaths.
+Data from https://ourworldindata.org/covid-deaths.
