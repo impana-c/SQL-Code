@@ -115,7 +115,7 @@ ORDER BY 2,3
 SELECT *, (RollingPeopleVaccinated/Population)*100
 FROM #PercentPopulationVaccinated
 
--- 8. Creating View
+-- 9. Creating View
 -- CREATE View PercentPopulationVaccinated AS
 -- SELECT deaths.continent, deaths.location, deaths.date, deaths.population, vacc.new_vaccinations
 -- , SUM(vacc.new_vaccinations) OVER (PARTITION BY deaths.location ORDER BY deaths.location, deaths.date) as RollingPeopleVaccinated
